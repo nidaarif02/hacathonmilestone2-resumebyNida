@@ -1,0 +1,93 @@
+body{
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+}
+
+h1{
+   text-align: center;
+   color: rgb(50, 50, 119);
+
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background: rgba(168, 168, 161, 0.5);
+    border-radius: 8px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(115, 100, 129);
+    border-style:double;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid rgb(128, 92, 128);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #13181d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #131518;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgba(250, 255, 243, );
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+}
+profilepicture{
+    display: block;
+    margin: o auto;
+    border: 2px solid ;
+box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+border-radius: 500%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+
+}
+
+
+
+
+
+
+button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: rgb(165, 106, 106);
+    color: black;
+    border: 3px solid rgba(128, 92, 128);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: brown;
+}
